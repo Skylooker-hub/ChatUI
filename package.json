@@ -23,7 +23,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "commit": "git-cz"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +54,11 @@
       "last 1 safari version"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
   "devDependencies": {
     "@babel/core": ">=7.11.5 <8.0.0",
     "@babel/plugin-syntax-flow": "7.14.5",
@@ -72,6 +78,8 @@
     "@types/styled-components": "^5.1.23",
     "autoprefixer": "10.0.2",
     "babel-loader": "8.0.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.0",
     "jest": "^27.5.1",
     "postcss": "8.1.0",
