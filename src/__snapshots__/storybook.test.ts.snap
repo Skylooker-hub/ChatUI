@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots UI组件/Avatar Default 1`] = `
+<div
+  className="sc-bdvvtL kERQPB"
+>
+  <div
+    className="sc-dkPtRN hMqOhM"
+    size="48px"
+  >
+    <img
+      alt="avatar"
+      className="sc-hKwDye bcixSg"
+      src="face-male-1.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots UI组件/Avatar Large 1`] = `
+<div
+  className="sc-bdvvtL kERQPB"
+>
+  <div
+    className="sc-gsDKAQ bcdVHN"
+    size="12px"
+  />
+  <div
+    className="sc-dkPtRN wsxzo"
+    size="72px"
+  >
+    <img
+      alt="avatar"
+      className="sc-hKwDye bcixSg"
+      src="face-male-1.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots UI组件/Avatar Offline 1`] = `
+<div
+  className="sc-bdvvtL kERQPB"
+>
+  <div
+    className="sc-gsDKAQ LVNFR"
+    size="8px"
+  />
+  <div
+    className="sc-dkPtRN hMqOhM"
+    size="48px"
+  >
+    <img
+      alt="avatar"
+      className="sc-hKwDye bcixSg"
+      src="face-male-1.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots UI组件/Avatar Online 1`] = `
+<div
+  className="sc-bdvvtL kERQPB"
+>
+  <div
+    className="sc-gsDKAQ cXGDdF"
+    size="8px"
+  />
+  <div
+    className="sc-dkPtRN hMqOhM"
+    size="48px"
+  >
+    <img
+      alt="avatar"
+      className="sc-hKwDye bcixSg"
+      src="face-male-1.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots UI组件/Badge Default 1`] = `
+<div
+  className="sc-jRQBWg crMOuN"
+>
+  <div
+    className="sc-eCImPb cJbfGz"
+  >
+    99
+  </div>
+</div>
+`;
+
+exports[`Storyshots UI组件/Badge Dot 1`] = `
+<div
+  className="sc-jRQBWg jWFbzn"
+>
+  <div
+    className="sc-bdvvtL kERQPB"
+  >
+    <div
+      className="sc-dkPtRN hMqOhM"
+      size="48px"
+    >
+      <img
+        alt="avatar"
+        className="sc-hKwDye bcixSg"
+        src="face-male-1.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots UI组件/Icon Color 1`] = `
+<div
+  className="sc-gKclnd cqsZbd"
+  color="#e22"
+>
+  <svg
+    height={24}
+    width={24}
+  >
+    smile.svg
+  </svg>
+</div>
+`;
+
+exports[`Storyshots UI组件/Icon Default 1`] = `
+<div
+  className="sc-gKclnd cfUxMS"
+>
+  <svg
+    height={24}
+    width={24}
+  >
+    smile.svg
+  </svg>
+</div>
+`;
+
+exports[`Storyshots UI组件/Icon Opacity 1`] = `
+<div
+  className="sc-gKclnd lpoCbD"
+  opacity={0.8}
+>
+  <svg
+    height={24}
+    width={24}
+  >
+    smile.svg
+  </svg>
+</div>
+`;
+
+exports[`Storyshots UI组件/Icon Size 1`] = `
+<div
+  className="sc-gKclnd cfUxMS"
+>
+  <svg
+    height={60}
+    width={60}
+  >
+    smile.svg
+  </svg>
+</div>
+`;
