@@ -1,7 +1,6 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Badge from "./Badge";
-import Avatar from "components/Avatar/Avatar";
-import face1 from "assets/images/face-male-1.jpg";
+import { ReactComponent as SmileIcon } from 'assets/icon/smile.svg';
 
 export default {
   component: Badge,
@@ -22,5 +21,5 @@ export const Dot = Template.bind({});
 
 Dot.args = {
   show: true,
-  children: <Avatar src={face1} />,
+  children: <SmileIcon />,
 };

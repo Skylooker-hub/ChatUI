@@ -1,14 +1,15 @@
-import { FunctionComponent, ReactElement, SVGProps } from "react";
+import { FunctionComponent, SVGProps } from "react";
 import { StyledIcon } from "./style";
 
 interface IProps {
   icon: FunctionComponent<
-    SVGProps<SVGSVGElement> & { title?: string | undefined }
+    SVGProps<SVGSVGElement>
   >;
   width?: number | string;
   height?: number | string;
   color?: string;
   opacity?: number;
+  [key: string]: any;
 }
 
 function Icon({

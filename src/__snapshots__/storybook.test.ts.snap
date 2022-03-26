@@ -96,26 +96,48 @@ exports[`Storyshots UI组件/Badge Dot 1`] = `
 <div
   className="sc-jRQBWg jWFbzn"
 >
-  <div
-    className="sc-bdvvtL kERQPB"
-  >
-    <div
-      className="sc-dkPtRN hMqOhM"
-      size="48px"
-    >
-      <img
-        alt="avatar"
-        className="sc-hKwDye bcixSg"
-        src="face-male-1.jpg"
-      />
-    </div>
-  </div>
+  <svg>
+    smile.svg
+  </svg>
 </div>
+`;
+
+exports[`Storyshots UI组件/Button Circle 1`] = `
+<button
+  className="sc-gKclnd hghkJg"
+  shape="circle"
+  size="30px"
+>
+  <svg>
+    plus.svg
+  </svg>
+</button>
+`;
+
+exports[`Storyshots UI组件/Button Custom 1`] = `
+<button
+  className="sc-gKclnd zbHJP"
+  color="#fff"
+  shape="rect"
+  size="30px"
+>
+  示例文本
+</button>
+`;
+
+exports[`Storyshots UI组件/Button Rect 1`] = `
+<button
+  className="sc-gKclnd grbAPb"
+  shape="rect"
+  size="30px"
+>
+  示例文本
+</button>
 `;
 
 exports[`Storyshots UI组件/Icon Color 1`] = `
 <div
-  className="sc-gKclnd cqsZbd"
+  className="sc-crHmcD bvWwyD"
   color="#e22"
 >
   <svg
@@ -129,7 +151,7 @@ exports[`Storyshots UI组件/Icon Color 1`] = `
 
 exports[`Storyshots UI组件/Icon Default 1`] = `
 <div
-  className="sc-gKclnd cfUxMS"
+  className="sc-crHmcD hHBmpI"
 >
   <svg
     height={24}
@@ -142,7 +164,7 @@ exports[`Storyshots UI组件/Icon Default 1`] = `
 
 exports[`Storyshots UI组件/Icon Opacity 1`] = `
 <div
-  className="sc-gKclnd lpoCbD"
+  className="sc-crHmcD gqVuWR"
   opacity={0.8}
 >
   <svg
@@ -156,7 +178,7 @@ exports[`Storyshots UI组件/Icon Opacity 1`] = `
 
 exports[`Storyshots UI组件/Icon Size 1`] = `
 <div
-  className="sc-gKclnd cfUxMS"
+  className="sc-crHmcD hHBmpI"
 >
   <svg
     height={60}
@@ -165,4 +187,573 @@ exports[`Storyshots UI组件/Icon Size 1`] = `
     smile.svg
   </svg>
 </div>
+`;
+
+exports[`Storyshots UI组件/Input Default 1`] = `
+<div
+  className="sc-fotOHu eIcVcA"
+>
+  <input
+    className="sc-bqiRlB gESgKk"
+    placeholder="请输入内容..."
+  />
+</div>
+`;
+
+exports[`Storyshots UI组件/Input Prefix 1`] = `
+<div
+  className="sc-fotOHu eIcVcA"
+>
+  <div
+    className="sc-ksdxgE KRZpQ"
+  >
+    <div
+      className="sc-crHmcD hHBmpI"
+    >
+      <svg
+        height={24}
+        width={24}
+      >
+        search.svg
+      </svg>
+    </div>
+  </div>
+  <input
+    className="sc-bqiRlB gESgKk"
+    placeholder="请输入内容..."
+  />
+  <div
+    className="sc-hBUSln emJBlP"
+  >
+    <div
+      className="sc-crHmcD hHBmpI"
+    >
+      <svg
+        height={24}
+        width={24}
+      >
+        smile.svg
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots UI组件/Input Search Input 1`] = `
+<div
+  className="sc-fotOHu eIcVcA"
+>
+  <div
+    className="sc-ksdxgE KRZpQ"
+  >
+    <div
+      className="sc-crHmcD llmwrU"
+      color="rgba(24, 28, 47, 0.3)"
+    >
+      <svg
+        height={18}
+        width={18}
+      >
+        search.svg
+      </svg>
+    </div>
+  </div>
+  <input
+    className="sc-bqiRlB gESgKk"
+    placeholder="请输入搜索内容..."
+  />
+</div>
+`;
+
+exports[`Storyshots UI组件/Input/Select Default 1`] = `
+<select
+  className="sc-kDTinF bMwJOU"
+>
+  <option
+    className="sc-iqseJM"
+  >
+     选项1 
+  </option>
+  <option
+    className="sc-iqseJM"
+  >
+     选项2 
+  </option>
+</select>
+`;
+
+exports[`Storyshots UI组件/MessageCard Default 1`] = `
+<div
+  className="sc-fKVqWL"
+>
+  <div
+    className="sc-bdvvtL kERQPB"
+  >
+    <div
+      className="sc-dkPtRN hMqOhM"
+      size="48px"
+    >
+      <img
+        alt="avatar"
+        className="sc-hKwDye bcixSg"
+      />
+    </div>
+  </div>
+  <span
+    className="sc-iCfMLu cpwNTA sc-bkkeKt"
+    size="large"
+    type="primary"
+  />
+  <span
+    className="sc-iCfMLu ZloqD sc-dJjYzT"
+    size="normal"
+    type="secondary"
+  />
+  <span
+    className="sc-iCfMLu fNXjkN sc-ieecCq"
+    size="medium"
+    type="secondary"
+  />
+  <div
+    className="sc-hGPBjI"
+  >
+    <p
+      className="sc-iCfMLu sc-fFeiMQ hNJFAQ cRdNaY sc-dlVxhl"
+      size="normal"
+      type="primary"
+    />
+    <div
+      className="sc-jRQBWg hmZePg sc-kfPuZi"
+    >
+      <div
+        className="sc-eCImPb cJbfGz"
+      >
+        0
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots 排版/Heading H 1 1`] = `
+<h1
+  className="sc-egiyK"
+>
+  示例文本
+</h1>
+`;
+
+exports[`Storyshots 排版/Heading H 2 1`] = `
+<h2
+  className="sc-egiyK"
+>
+  示例文本
+</h2>
+`;
+
+exports[`Storyshots 排版/Heading H 3 1`] = `
+<h3
+  className="sc-egiyK"
+>
+  示例文本
+</h3>
+`;
+
+exports[`Storyshots 排版/Heading H 4 1`] = `
+<h4
+  className="sc-egiyK"
+>
+  示例文本
+</h4>
+`;
+
+exports[`Storyshots 排版/Paragraph Default 1`] = `
+Array [
+  <p
+    className="sc-iCfMLu sc-fFeiMQ hNJFAQ hqmwIG"
+    size="normal"
+    type="primary"
+  >
+     示例文本 
+  </p>,
+  <p
+    className="sc-iCfMLu sc-fFeiMQ hNJFAQ hqmwIG"
+    size="normal"
+    type="primary"
+  >
+     示例文本 
+  </p>,
+]
+`;
+
+exports[`Storyshots 排版/Paragraph Ellipsis 1`] = `
+<p
+  className="sc-iCfMLu sc-fFeiMQ hNJFAQ cRdNaY"
+  size="normal"
+  type="primary"
+>
+  示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本示例文本
+</p>
+`;
+
+exports[`Storyshots 排版/Text Bold 1`] = `
+<span
+  className="sc-iCfMLu beGwgY"
+  size="normal"
+  type="primary"
+>
+  示例文本示例文本示例文本
+</span>
+`;
+
+exports[`Storyshots 排版/Text Danger 1`] = `
+<span
+  className="sc-iCfMLu hwaLUW"
+  size="normal"
+  type="danger"
+>
+  示例文本示例文本示例文本
+</span>
+`;
+
+exports[`Storyshots 排版/Text Default 1`] = `
+<span
+  className="sc-iCfMLu hNJFAQ"
+  size="normal"
+  type="primary"
+>
+  示例文本示例文本示例文本
+</span>
+`;
+
+exports[`Storyshots 排版/Text Large 1`] = `
+<span
+  className="sc-iCfMLu cpwNTA"
+  size="large"
+  type="primary"
+>
+  示例文本示例文本示例文本
+</span>
+`;
+
+exports[`Storyshots 排版/Text Secondary 1`] = `
+<span
+  className="sc-iCfMLu ZloqD"
+  size="normal"
+  type="secondary"
+>
+  示例文本示例文本示例文本
+</span>
+`;
+
+exports[`Storyshots 排版/Text Small 1`] = `
+<span
+  className="sc-iCfMLu eVSEqe"
+  size="small"
+  type="primary"
+>
+  示例文本示例文本示例文本
+</span>
+`;
+
+exports[`Storyshots 页面组件/Filter Default 1`] = `
+<div
+  className="sc-furwcr gXxzw"
+>
+  <div
+    className="sc-pVTFL"
+  >
+    <span
+      className="sc-iCfMLu ZloqD"
+      size="normal"
+      type="secondary"
+    >
+       
+      列表排序
+      ：
+    </span>
+    <select
+      className="sc-kDTinF bMwJOU"
+    >
+      <option
+        className="sc-iqseJM"
+      >
+        最新消息优先
+      </option>
+      <option
+        className="sc-iqseJM"
+      >
+        在线好友优先
+      </option>
+    </select>
+  </div>
+  <div
+    className="sc-jrQzAO jIIvOZ"
+  >
+    <span
+      className="sc-iCfMLu ZloqD"
+      size="normal"
+      type="secondary"
+    >
+       
+      创建会话
+      ：
+    </span>
+    <button
+      className="sc-gKclnd hghkJg"
+      shape="circle"
+      size="30px"
+    >
+      <div
+        className="sc-crHmcD hHBmpI"
+      >
+        <svg
+          height={12}
+          width={12}
+        >
+          plus.svg
+        </svg>
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots 页面组件/MenuItem Default 1`] = `
+<div
+  className="MenuItemstories___StyledDiv-sc-xm3v5u-0 eWEfGR"
+>
+  <div
+    className="sc-cxpSdN cvSnIa"
+  >
+    <a
+      href="#"
+    >
+      <div
+        className="sc-jRQBWg jWFbzn"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-comment-dots sc-llYSUQ bFeYCf"
+          data-icon="comment-dots"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M256 31.1c-141.4 0-255.1 93.12-255.1 208c0 49.62 21.35 94.98 56.97 130.7c-12.5 50.37-54.27 95.27-54.77 95.77c-2.25 2.25-2.875 5.734-1.5 8.734c1.249 3 4.021 4.766 7.271 4.766c66.25 0 115.1-31.76 140.6-51.39c32.63 12.25 69.02 19.39 107.4 19.39c141.4 0 255.1-93.13 255.1-207.1S397.4 31.1 256 31.1zM127.1 271.1c-17.75 0-32-14.25-32-31.1s14.25-32 32-32s32 14.25 32 32S145.7 271.1 127.1 271.1zM256 271.1c-17.75 0-31.1-14.25-31.1-31.1s14.25-32 31.1-32s31.1 14.25 31.1 32S273.8 271.1 256 271.1zM383.1 271.1c-17.75 0-32-14.25-32-31.1s14.25-32 32-32s32 14.25 32 32S401.7 271.1 383.1 271.1z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots 页面组件/NavBar Default 1`] = `
+<nav
+  className="sc-bBHxTw cJXvmT"
+>
+  <div
+    className="sc-bdvvtL kERQPB"
+  >
+    <div
+      className="sc-gsDKAQ cXGDdF"
+      size="8px"
+    />
+    <div
+      className="sc-dkPtRN hMqOhM"
+      size="48px"
+    >
+      <img
+        alt="avatar"
+        className="sc-hKwDye bcixSg"
+        src="face-male-1.jpg"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-iwjdpV iRjmou"
+  >
+    <div
+      className="sc-cxpSdN cvSnIa"
+    >
+      <a
+        href="#"
+      >
+        <div
+          className="sc-jRQBWg jWFbzn"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-comment-dots sc-llYSUQ bFeYCf"
+            data-icon="comment-dots"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 31.1c-141.4 0-255.1 93.12-255.1 208c0 49.62 21.35 94.98 56.97 130.7c-12.5 50.37-54.27 95.27-54.77 95.77c-2.25 2.25-2.875 5.734-1.5 8.734c1.249 3 4.021 4.766 7.271 4.766c66.25 0 115.1-31.76 140.6-51.39c32.63 12.25 69.02 19.39 107.4 19.39c141.4 0 255.1-93.13 255.1-207.1S397.4 31.1 256 31.1zM127.1 271.1c-17.75 0-32-14.25-32-31.1s14.25-32 32-32s32 14.25 32 32S145.7 271.1 127.1 271.1zM256 271.1c-17.75 0-31.1-14.25-31.1-31.1s14.25-32 31.1-32s31.1 14.25 31.1 32S273.8 271.1 256 271.1zM383.1 271.1c-17.75 0-32-14.25-32-31.1s14.25-32 32-32s32 14.25 32 32S401.7 271.1 383.1 271.1z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </a>
+    </div>
+    <div
+      className="sc-cxpSdN ffBxIZ"
+    >
+      <a
+        href="#"
+      >
+        <div
+          className="sc-jRQBWg SpRaI"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-user sc-llYSUQ QVoAH"
+            data-icon="user"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </a>
+    </div>
+    <div
+      className="sc-cxpSdN ffBxIZ"
+    >
+      <a
+        href="#"
+      >
+        <div
+          className="sc-jRQBWg SpRaI"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-folder sc-llYSUQ QVoAH"
+            data-icon="folder"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M464 96h-192l-64-64h-160C21.5 32 0 53.5 0 80V160h512V144C512 117.5 490.5 96 464 96zM0 432C0 458.5 21.5 480 48 480h416c26.5 0 48-21.5 48-48V192H0V432z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </a>
+    </div>
+    <div
+      className="sc-cxpSdN ffBxIZ"
+    >
+      <a
+        href="#"
+      >
+        <div
+          className="sc-jRQBWg SpRaI"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-note-sticky sc-llYSUQ QVoAH"
+            data-icon="note-sticky"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M400 32h-352C21.49 32 0 53.49 0 80v352C0 458.5 21.49 480 48 480h245.5c16.97 0 33.25-6.744 45.26-18.75l90.51-90.51C441.3 358.7 448 342.5 448 325.5V80C448 53.49 426.5 32 400 32zM64 96h320l-.001 224H320c-17.67 0-32 14.33-32 32v64H64V96z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </a>
+    </div>
+    <div
+      className="sc-cxpSdN ffBxIZ"
+    >
+      <a
+        href="#"
+      >
+        <div
+          className="sc-jRQBWg SpRaI"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-ellipsis sc-llYSUQ QVoAH"
+            data-icon="ellipsis"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M120 256C120 286.9 94.93 312 64 312C33.07 312 8 286.9 8 256C8 225.1 33.07 200 64 200C94.93 200 120 225.1 120 256zM280 256C280 286.9 254.9 312 224 312C193.1 312 168 286.9 168 256C168 225.1 193.1 200 224 200C254.9 200 280 225.1 280 256zM328 256C328 225.1 353.1 200 384 200C414.9 200 440 225.1 440 256C440 286.9 414.9 312 384 312C353.1 312 328 286.9 328 256z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </a>
+    </div>
+    <div
+      className="sc-cxpSdN ffBxIZ NavBar___StyledMenuItem-sc-1iifwzw-0 hcHJUi"
+    >
+      <a
+        href="#"
+      >
+        <div
+          className="sc-jRQBWg SpRaI"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-gear sc-llYSUQ QVoAH"
+            data-icon="gear"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M495.9 166.6C499.2 175.2 496.4 184.9 489.6 191.2L446.3 230.6C447.4 238.9 448 247.4 448 256C448 264.6 447.4 273.1 446.3 281.4L489.6 320.8C496.4 327.1 499.2 336.8 495.9 345.4C491.5 357.3 486.2 368.8 480.2 379.7L475.5 387.8C468.9 398.8 461.5 409.2 453.4 419.1C447.4 426.2 437.7 428.7 428.9 425.9L373.2 408.1C359.8 418.4 344.1 427 329.2 433.6L316.7 490.7C314.7 499.7 307.7 506.1 298.5 508.5C284.7 510.8 270.5 512 255.1 512C241.5 512 227.3 510.8 213.5 508.5C204.3 506.1 197.3 499.7 195.3 490.7L182.8 433.6C167 427 152.2 418.4 138.8 408.1L83.14 425.9C74.3 428.7 64.55 426.2 58.63 419.1C50.52 409.2 43.12 398.8 36.52 387.8L31.84 379.7C25.77 368.8 20.49 357.3 16.06 345.4C12.82 336.8 15.55 327.1 22.41 320.8L65.67 281.4C64.57 273.1 64 264.6 64 256C64 247.4 64.57 238.9 65.67 230.6L22.41 191.2C15.55 184.9 12.82 175.3 16.06 166.6C20.49 154.7 25.78 143.2 31.84 132.3L36.51 124.2C43.12 113.2 50.52 102.8 58.63 92.95C64.55 85.8 74.3 83.32 83.14 86.14L138.8 103.9C152.2 93.56 167 84.96 182.8 78.43L195.3 21.33C197.3 12.25 204.3 5.04 213.5 3.51C227.3 1.201 241.5 0 256 0C270.5 0 284.7 1.201 298.5 3.51C307.7 5.04 314.7 12.25 316.7 21.33L329.2 78.43C344.1 84.96 359.8 93.56 373.2 103.9L428.9 86.14C437.7 83.32 447.4 85.8 453.4 92.95C461.5 102.8 468.9 113.2 475.5 124.2L480.2 132.3C486.2 143.2 491.5 154.7 495.9 166.6V166.6zM256 336C300.2 336 336 300.2 336 255.1C336 211.8 300.2 175.1 256 175.1C211.8 175.1 176 211.8 176 255.1C176 300.2 211.8 336 256 336z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </a>
+    </div>
+  </div>
+</nav>
 `;

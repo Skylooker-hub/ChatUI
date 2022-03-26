@@ -9,6 +9,8 @@ interface IProps {
   status?: "offline" | "online";
   /** 状态图标大小 */
   statusIconSize?: string;
+
+  [key: string]: any;
 }
 
 function Avatar({
